@@ -24,6 +24,7 @@ import VariantU_3DVideoMorphPortal from './cards/VariantU_3DVideoMorphPortal';
 import VariantV_3DVideoParallaxStage from './cards/VariantV_3DVideoParallaxStage';
 import VariantW_TwoBrothersStyle from './cards/VariantW_TwoBrothersStyle';
 import VariantX_GheeTapSwap from './cards/VariantX_GheeTapSwap';
+import VariantY_VideoHoverShowcase from './cards/VariantY_VideoHoverShowcase';
 import VariantAG_MonolithDrop from './cards/VariantAG_MonolithDrop';
 import VariantAG_GlareTilt from './cards/VariantAG_GlareTilt';
 import VariantAG_OrbitalSwatch from './cards/VariantAG_OrbitalSwatch';
@@ -121,6 +122,8 @@ export default function ProductGrid({
         return VariantW_TwoBrothersStyle;
       case 'variant-x':
         return VariantX_GheeTapSwap;
+      case 'variant-y':
+        return VariantY_VideoHoverShowcase;
       default:
         return VariantAG_MonolithDrop;
     }

@@ -1,7 +1,8 @@
 export const BRAND = {
   name: "Gawdee",
   tagline: "The Mother of Organic Nutrition",
-  logo: "/images/logo.png",
+  logo: "/images/logo/Make_please.mp4",
+  logoVideo: "/images/logo/Make_please.mp4",
   primaryColor: "#009B7B",
 };
 
@@ -10,7 +11,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-ag-multiverse",
     name: "Antigravity Sneaker Multiverse (3x3 Grid)",
     shortLabel: "Antigravity 3x3 Grid",
-    tagline: "Multiverse of floating product cards showcasing 9 distinct levitation, glassmorphism, and atmospheric antigravity styles.",
+    tagline:
+      "Multiverse of floating product cards showcasing 9 distinct levitation, glassmorphism, and atmospheric antigravity styles.",
     badge: "3x3 Grid",
     category: "Antigravity Sneakers",
   },
@@ -18,7 +20,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-original-showcase",
     name: "Original Gawdee Showcase Design",
     shortLabel: "🌿 Original Gawdee Cards",
-    tagline: "Custom 3D product card design using authentic original Gawdee harvest images with perspective tilt and organic badges.",
+    tagline:
+      "Custom 3D product card design using authentic original Gawdee harvest images with perspective tilt and organic badges.",
     badge: "ORIGINAL IMAGE",
     category: "Original Gawdee Cards",
   },
@@ -26,7 +29,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-original-showcase-2",
     name: "Original Gawdee Botanical Elixir Showcase",
     shortLabel: "🌿 Gawdee Botanical Elixir (Card 2)",
-    tagline: "Ultra-modern glassmorphic split card with liquid ripple aura ring, hover curtain reveal, and floating organic seal drawer.",
+    tagline:
+      "Ultra-modern glassmorphic split card with liquid ripple aura ring, hover curtain reveal, and floating organic seal drawer.",
     badge: "BOTANICAL ELIXIR",
     category: "Original Gawdee Cards",
   },
@@ -34,7 +38,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-ag-1",
     name: "Style 1: The Monolith Drop",
     shortLabel: "01 Monolith Drop",
-    tagline: "Matte dark elevation card with large soft bloom drop shadow beneath floating sneaker.",
+    tagline:
+      "Matte dark elevation card with large soft bloom drop shadow beneath floating sneaker.",
     badge: "Monolith Drop",
     category: "Antigravity Sneakers",
   },
@@ -42,7 +47,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-ag-2",
     name: "Style 2: The Glare Tilt",
     shortLabel: "02 Glare Tilt 3D",
-    tagline: "Cursor-sensitive 3D perspective tilt with reflective glassmorphism & lens glare barrier.",
+    tagline:
+      "Cursor-sensitive 3D perspective tilt with reflective glassmorphism & lens glare barrier.",
     badge: "Glare Tilt 3D",
     category: "Antigravity Sneakers",
   },
@@ -50,7 +56,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-ag-3",
     name: "Style 3: The Orbital Swatch",
     shortLabel: "03 Orbital Swatch",
-    tagline: "Disconnected color swatches orbiting around floating sneaker at varied 3D z-depth levels.",
+    tagline:
+      "Disconnected color swatches orbiting around floating sneaker at varied 3D z-depth levels.",
     badge: "Orbital Swatch",
     category: "Antigravity Sneakers",
   },
@@ -58,7 +65,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-ag-4",
     name: "Style 4: The Atmospheric Split",
     shortLabel: "04 Atmospheric Split",
-    tagline: "Full-bleed editorial track background with shoe and text suspended on an Apex Blue aura cloud.",
+    tagline:
+      "Full-bleed editorial track background with shoe and text suspended on an Apex Blue aura cloud.",
     badge: "Atmospheric Split",
     category: "Antigravity Sneakers",
   },
@@ -66,7 +74,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-ag-5",
     name: "Style 5: The Ethereal Reveal",
     shortLabel: "05 Ethereal Reveal",
-    tagline: "Stark white zero-border card with floating sneaker casting soft sole drop shadow.",
+    tagline:
+      "Stark white zero-border card with floating sneaker casting soft sole drop shadow.",
     badge: "Ethereal Reveal",
     category: "Antigravity Sneakers",
   },
@@ -74,7 +83,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-ag-6",
     name: "Style 6: The Frosted Drawer",
     shortLabel: "06 Frosted Drawer",
-    tagline: "Semi-transparent frosted glass control drawer floating over bottom edge of sneaker image.",
+    tagline:
+      "Semi-transparent frosted glass control drawer floating over bottom edge of sneaker image.",
     badge: "Frosted Drawer",
     category: "Antigravity Sneakers",
   },
@@ -82,7 +92,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-ag-7",
     name: "Style 7: The Gravity Pulse Field",
     shortLabel: "07 Gravity Pulse",
-    tagline: "Magnetic energy resonance field rings levitating sneaker in zero-g environment.",
+    tagline:
+      "Magnetic energy resonance field rings levitating sneaker in zero-g environment.",
     badge: "Gravity Pulse",
     category: "Antigravity Sneakers",
   },
@@ -90,7 +101,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-ag-8",
     name: "Style 8: The Holographic Prism Chamber",
     shortLabel: "08 Holo Prism",
-    tagline: "Iridescent rainbow prism glass container with floating chromatic light dispersion.",
+    tagline:
+      "Iridescent rainbow prism glass container with floating chromatic light dispersion.",
     badge: "Holo Prism",
     category: "Antigravity Sneakers",
   },
@@ -98,7 +110,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-ag-9",
     name: "Style 9: The Quantum Void Levitator",
     shortLabel: "09 Quantum Void",
-    tagline: "Deep void pitch-black space with glowing blue aura disk and floating action capsule.",
+    tagline:
+      "Deep void pitch-black space with glowing blue aura disk and floating action capsule.",
     badge: "Quantum Void",
     category: "Antigravity Sneakers",
   },
@@ -106,7 +119,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-a",
     name: "Secondary Image Crossfade",
     shortLabel: "Reveal / Crossfade",
-    tagline: "Smooth fade/slide transition into a secondary organic harvest or lifestyle photo with sliding quick-actions.",
+    tagline:
+      "Smooth fade/slide transition into a secondary organic harvest or lifestyle photo with sliding quick-actions.",
     badge: "Variant A",
     category: "Reveal/Swap",
   },
@@ -114,7 +128,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-b",
     name: "3D Perspective Card Tilt",
     shortLabel: "3D Tilt",
-    tagline: "Dynamic cursor position tracking with 3D rotational perspective tilt & specular glare reflection.",
+    tagline:
+      "Dynamic cursor position tracking with 3D rotational perspective tilt & specular glare reflection.",
     badge: "Variant B",
     category: "3D Tilt",
   },
@@ -122,7 +137,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-c",
     name: "Ken Burns Pan & Vignette",
     shortLabel: "Scale & Vignette",
-    tagline: "Cinematic zoom & pan with dynamic dark vignette framing around edges on hover.",
+    tagline:
+      "Cinematic zoom & pan with dynamic dark vignette framing around edges on hover.",
     badge: "Variant C",
     category: "Scale & Vignette",
   },
@@ -130,7 +146,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-d",
     name: "Color / Flavor Swatch Switcher",
     shortLabel: "Flavor Swatches",
-    tagline: "Instant main product photo swap on hovering flavor swatch bullets with active flavor indicator.",
+    tagline:
+      "Instant main product photo swap on hovering flavor swatch bullets with active flavor indicator.",
     badge: "Variant D",
     category: "Color Swatch",
   },
@@ -138,7 +155,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-e",
     name: "Bottom Glass Drawer",
     shortLabel: "Bottom Drawer",
-    tagline: "Frosted glassmorphism drawer slides up revealing weight/size selectors (250g, 500g, 1kg) & add-to-cart button.",
+    tagline:
+      "Frosted glassmorphism drawer slides up revealing weight/size selectors (250g, 500g, 1kg) & add-to-cart button.",
     badge: "Variant E",
     category: "Bottom Drawer",
   },
@@ -146,7 +164,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-f",
     name: "Split Diagonal Mask",
     shortLabel: "Diagonal Mask",
-    tagline: "CSS clip-path diagonal swipe revealing raw crystal texture or origin harvest detail.",
+    tagline:
+      "CSS clip-path diagonal swipe revealing raw crystal texture or origin harvest detail.",
     badge: "Variant F",
     category: "Diagonal Mask",
   },
@@ -154,7 +173,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-g",
     name: "Interactive Lens Zoom",
     shortLabel: "Magnifying Lens",
-    tagline: "Ultra-sharp 2.5x circular magnifying glass lens tracking real-time cursor position over organic textures.",
+    tagline:
+      "Ultra-sharp 2.5x circular magnifying glass lens tracking real-time cursor position over organic textures.",
     badge: "Variant G",
     category: "Magnifying Lens",
   },
@@ -162,7 +182,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-h",
     name: "Holographic Organic Glow",
     shortLabel: "Holographic Glass",
-    tagline: "Gawdee emerald holographic gradient edge shift with ambient green aura.",
+    tagline:
+      "Gawdee emerald holographic gradient edge shift with ambient green aura.",
     badge: "Variant H",
     category: "Holographic Glass",
   },
@@ -170,7 +191,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-i",
     name: "3D Double-Sided Card Flip",
     shortLabel: "3D Card Flip",
-    tagline: "Card completely flips 180° in 3D space, revealing full nutritional blueprint & origin details on the back.",
+    tagline:
+      "Card completely flips 180° in 3D space, revealing full nutritional blueprint & origin details on the back.",
     badge: "Variant I",
     category: "3D Flip",
   },
@@ -178,7 +200,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-j",
     name: "Split Venetian Curtain Reveal",
     shortLabel: "Curtain Reveal",
-    tagline: "Twin image shutters slide apart from center to reveal inner background harvest scene & micro badges.",
+    tagline:
+      "Twin image shutters slide apart from center to reveal inner background harvest scene & micro badges.",
     badge: "Variant J",
     category: "Curtain Reveal",
   },
@@ -186,7 +209,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-k",
     name: "Wide Landscape Banner Layout",
     shortLabel: "Landscape Banner",
-    tagline: "Horizontal dual-column card banner featuring image parallax zoom on left & full specs breakdown on right.",
+    tagline:
+      "Horizontal dual-column card banner featuring image parallax zoom on left & full specs breakdown on right.",
     badge: "Variant K",
     category: "Landscape Banner",
   },
@@ -194,7 +218,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-l",
     name: "Floating Glass Morph & Ripple Pulse",
     shortLabel: "Glass Morph Pulse",
-    tagline: "Ultra-clean floating glass card with dynamic emerald ripple pulse aura rings.",
+    tagline:
+      "Ultra-clean floating glass card with dynamic emerald ripple pulse aura rings.",
     badge: "Variant L",
     category: "Glass Morph",
   },
@@ -202,7 +227,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-m",
     name: "Spatial UI Apple Vision Float",
     shortLabel: "Spatial UI",
-    tagline: "Multi-layered spatial glass elements floating at distinct 3D z-depth distances on cursor motion.",
+    tagline:
+      "Multi-layered spatial glass elements floating at distinct 3D z-depth distances on cursor motion.",
     badge: "Variant M",
     category: "Spatial UI",
   },
@@ -210,7 +236,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-n",
     name: "3D Turntable Continuous Spinner",
     shortLabel: "3D Turntable",
-    tagline: "Product image continuously rotates 360° on a metallic turntable base on mouse hover.",
+    tagline:
+      "Product image continuously rotates 360° on a metallic turntable base on mouse hover.",
     badge: "Variant N",
     category: "3D Turntable",
   },
@@ -218,7 +245,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-o",
     name: "Directional Light & Casting Shadow",
     shortLabel: "Casting Shadow",
-    tagline: "3D drop shadow shifts dynamically relative to cursor position creating realistic directional light tracking.",
+    tagline:
+      "3D drop shadow shifts dynamically relative to cursor position creating realistic directional light tracking.",
     badge: "Variant O",
     category: "Casting Shadow",
   },
@@ -226,7 +254,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-[#009B7B]",
     name: "Laser Scanner & Neon Pulse Beam",
     shortLabel: "Laser Scanner",
-    tagline: "Glowing emerald laser scan line sweeps vertically over product image on mouse hover.",
+    tagline:
+      "Glowing emerald laser scan line sweeps vertically over product image on mouse hover.",
     badge: "Variant P",
     category: "Laser Scanner",
   },
@@ -234,7 +263,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-q",
     name: "Inline Multi-Tab Spec Switcher",
     shortLabel: "Inline Tabs",
-    tagline: "Card features interactive tabs inside the card body (Overview, Specs, Sourcing) animating views seamlessly.",
+    tagline:
+      "Card features interactive tabs inside the card body (Overview, Specs, Sourcing) animating views seamlessly.",
     badge: "Variant Q",
     category: "Inline Tabs",
   },
@@ -242,7 +272,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-r",
     name: "Liquid Ripple Wave Glass Morph",
     shortLabel: "Liquid Ripple",
-    tagline: "Expanding liquid wave gradient backdrop rings radiating from hover point for organic fluid feel.",
+    tagline:
+      "Expanding liquid wave gradient backdrop rings radiating from hover point for organic fluid feel.",
     badge: "Variant R",
     category: "Liquid Ripple",
   },
@@ -250,7 +281,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-s",
     name: "3D Continuous Autoplay Video Stage",
     shortLabel: "3D Video Autoplay",
-    tagline: "Continuous looping HD video stream with 3D cursor tilt, sound mute toggle, and live status badges.",
+    tagline:
+      "Continuous looping HD video stream with 3D cursor tilt, sound mute toggle, and live status badges.",
     badge: "Variant S",
     category: "3D Video",
   },
@@ -258,7 +290,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-t",
     name: "Hover Autoplay Video Reveal",
     shortLabel: "Hover Video Reveal",
-    tagline: "Static poster image by default; seamlessly plays HD video clip on cursor hover.",
+    tagline:
+      "Static poster image by default; seamlessly plays HD video clip on cursor hover.",
     badge: "Variant T",
     category: "3D Video",
   },
@@ -266,7 +299,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-u",
     name: "Cinematic 3D Glass Portal Video",
     shortLabel: "3D Video Portal",
-    tagline: "Curved 3D glass viewport portal rendering looping harvest footage with audio controls.",
+    tagline:
+      "Curved 3D glass viewport portal rendering looping harvest footage with audio controls.",
     badge: "Variant U",
     category: "3D Video",
   },
@@ -274,7 +308,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-v",
     name: "Spatial 3D Parallax Video Stage",
     shortLabel: "3D Video Parallax",
-    tagline: "Background video loop playing behind floating 3D product elements at Z-depth 40px.",
+    tagline:
+      "Background video loop playing behind floating 3D product elements at Z-depth 40px.",
     badge: "Variant V",
     category: "3D Video",
   },
@@ -282,7 +317,8 @@ export const PRODUCT_VARIANTS = [
     id: "variant-x",
     name: "Ghee Simple Tap-First Swap",
     shortLabel: "Ghee Tap Swap",
-    tagline: "Simple white card with tap-first priority and hover crossfade between GheeFirst and GheeSecond, plus 250g / 500g / 1kg selector.",
+    tagline:
+      "Simple white card with tap-first priority and hover crossfade between GheeFirst and GheeSecond, plus 250g / 500g / 1kg selector.",
     badge: "TAP SWAP",
     category: "Simple Tap Swap",
   },
@@ -290,13 +326,57 @@ export const PRODUCT_VARIANTS = [
     id: "variant-w",
     name: "Organic Certification Orbit Reveal",
     shortLabel: "Cert Orbit Reveal",
-    tagline: "Textured un-hovered ghee background morphs on hover to clean white with floating organic seals & dotted orbit lines.",
+    tagline:
+      "Textured un-hovered ghee background morphs on hover to clean white with floating organic seals & dotted orbit lines.",
     badge: "Limited Stock",
     category: "Certification Orbit",
+  },
+  {
+    id: "variant-y",
+    name: "Hover Autoplay Video Showcase",
+    shortLabel: "Video Hover Showcase",
+    tagline:
+      "Clean white card with hover autoplay video transition, Bestseller badge, 18% OFF, Fast Selling, Healthy seals, and Sold Out support.",
+    badge: "VIDEO HOVER",
+    category: "3D Video",
   },
 ];
 
 export const PRODUCTS = [
+  {
+    id: "prod-y-video-hover",
+    variantId: "variant-y",
+    title: "Gawdee Organic Superfood Blend",
+    category: "Superfoods & Honey",
+    brand: "Gawdee Organic Nutrition",
+    brandLogo: BRAND.logo,
+    brandColor: BRAND.primaryColor,
+    price: 32.0,
+    originalPrice: 40.0,
+    discount: "18% OFF",
+    rating: 5.0,
+    reviewCount: 420,
+    badge: "Bestseller",
+    badgeType: "trending",
+    description:
+      "Authentic organic product with image-to-video hover transition, 18% OFF, Bestseller certification, Fast Selling & Healthy badges.",
+    specs: [
+      "Image-to-Video Hover Animation",
+      "Bestseller & 18% OFF Badges",
+      "Fast Selling & 100% Healthy",
+      "In-Stock & Sold-Out States",
+    ],
+    videoUrl: "/images/newCard/Sequence 01_1.mp4",
+    images: {
+      primary: "/images/newCard/IMG_1210.PNG",
+      secondary: "/images/newCard/IMG_1210.PNG",
+    },
+    codeSnippet: {
+      css: `/* Variant Y: Hover Autoplay Video Card Showcase */
+.video-hover-card { background: #ffffff; border-radius: 1.5rem; }`,
+      framer: `<video src="/images/newCard/Sequence 01_1.mp4" autoPlay loop muted />`,
+    },
+  },
   {
     id: "prod-x-ghee-tap",
     variantId: "variant-x",
@@ -306,14 +386,19 @@ export const PRODUCTS = [
     brandLogo: BRAND.logo,
     brandColor: BRAND.primaryColor,
     price: 34.99,
-    originalPrice: 42.00,
+    originalPrice: 42.0,
     discount: "TAP SWAP",
     rating: 4.92,
     reviewCount: 469,
     badge: "TAP SWAP",
     badgeType: "new",
-    description: "Simple Ghee card — tap the photo first on mobile, hover to swap on desktop. 250g / 500g / 1kg.",
-    specs: ["Tap-First Image Swap", "Hover Crossfade Animation", "250g / 500g / 1kg Selector"],
+    description:
+      "Simple Ghee card — tap the photo first on mobile, hover to swap on desktop. 250g / 500g / 1kg.",
+    specs: [
+      "Tap-First Image Swap",
+      "Hover Crossfade Animation",
+      "250g / 500g / 1kg Selector",
+    ],
     images: {
       primary: "/images/Ghee/GheeFirst.jpeg",
       secondary: "/images/Ghee/GheeSecond.jpeg",
@@ -332,17 +417,24 @@ export const PRODUCTS = [
     brandLogo: BRAND.logo,
     brandColor: BRAND.primaryColor,
     price: 34.99,
-    originalPrice: 42.00,
+    originalPrice: 42.0,
     discount: "17% OFF",
     rating: 4.9,
     reviewCount: 380,
     badge: "ORIGINAL IMAGE",
     badgeType: "trending",
-    description: "Authentic original Gawdee organic product harvest with interactive dual-image view and farm-fresh purity.",
-    specs: ["Original Gawdee Photo", "Dual Image Hover Swap", "USDA Organic Certified"],
+    description:
+      "Authentic original Gawdee organic product harvest with interactive dual-image view and farm-fresh purity.",
+    specs: [
+      "Original Gawdee Photo",
+      "Dual Image Hover Swap",
+      "USDA Organic Certified",
+    ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
-      secondary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.54 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      secondary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.54 PM.jpeg",
     },
     codeSnippet: {
       css: `/* Variant Original: Authentic Gawdee Product Showcase */
@@ -359,17 +451,24 @@ export const PRODUCTS = [
     brandLogo: BRAND.logo,
     brandColor: BRAND.primaryColor,
     price: 29.99,
-    originalPrice: 35.00,
+    originalPrice: 35.0,
     discount: "SAVE $5",
     rating: 5.0,
     reviewCount: 420,
     badge: "ORIGINAL IMAGE",
     badgeType: "new",
-    description: "Original Gawdee botanical extract and pure organic nutrition formula with instant dual-photo preview.",
-    specs: ["100% Raw Harvest", "Zero Artificial Additives", "Farm Direct Sourcing"],
+    description:
+      "Original Gawdee botanical extract and pure organic nutrition formula with instant dual-photo preview.",
+    specs: [
+      "100% Raw Harvest",
+      "Zero Artificial Additives",
+      "Farm Direct Sourcing",
+    ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
-      secondary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.54 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      secondary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.54 PM.jpeg",
     },
     codeSnippet: {
       css: `/* Variant Original: Authentic Gawdee Botanical Elixir */
@@ -384,14 +483,19 @@ export const PRODUCTS = [
     brand: "Apex Velocity",
     category: "Antigravity Sneakers",
     price: 189.99,
-    originalPrice: 220.00,
+    originalPrice: 220.0,
     discount: "STYLE 01",
     rating: 4.8,
     reviewCount: 210,
     badge: "Monolith Drop",
     badgeType: "new",
-    description: "Style 1: The Monolith Drop. High-depth elevation over a matte dark background card with soft bloom drop shadow.",
-    specs: ["Carbon Fiber Plate", "Pro-X Float Cushioning", "Breathable Mesh Upper"],
+    description:
+      "Style 1: The Monolith Drop. High-depth elevation over a matte dark background card with soft bloom drop shadow.",
+    specs: [
+      "Carbon Fiber Plate",
+      "Pro-X Float Cushioning",
+      "Breathable Mesh Upper",
+    ],
     sizes: ["US 8", "US 9", "US 10", "US 11"],
     swatches: [
       { name: "Pure White", colorHex: "#FFFFFF" },
@@ -400,10 +504,12 @@ export const PRODUCTS = [
       { name: "Emerald Cyber", colorHex: "#10B981" },
     ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       secondary: "/images/IMG_1073.PNG",
       angle3: "/images/IMG_1103.PNG",
-      highResZoom: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      highResZoom:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       lifestyle: "/images/running-track-bg.jpg",
     },
     codeSnippet: {
@@ -418,14 +524,19 @@ export const PRODUCTS = [
     brand: "Apex Velocity",
     category: "Antigravity Sneakers",
     price: 189.99,
-    originalPrice: 220.00,
+    originalPrice: 220.0,
     discount: "STYLE 02",
     rating: 4.8,
     reviewCount: 210,
     badge: "Glare Tilt 3D",
     badgeType: "new",
-    description: "Style 2: The Glare Tilt. Cursor-sensitive 3D perspective tilt with reflective glassmorphism & diagonal lens glare.",
-    specs: ["Interactive 3D Motion", "Specular Reflection", "Glassmorphism Shield"],
+    description:
+      "Style 2: The Glare Tilt. Cursor-sensitive 3D perspective tilt with reflective glassmorphism & diagonal lens glare.",
+    specs: [
+      "Interactive 3D Motion",
+      "Specular Reflection",
+      "Glassmorphism Shield",
+    ],
     sizes: ["US 8", "US 9", "US 10", "US 11"],
     swatches: [
       { name: "Pure White", colorHex: "#FFFFFF" },
@@ -434,10 +545,12 @@ export const PRODUCTS = [
       { name: "Emerald Cyber", colorHex: "#10B981" },
     ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       secondary: "/images/IMG_1101.PNG",
       angle3: "/images/IMG_1105.PNG",
-      highResZoom: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      highResZoom:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       lifestyle: "/images/running-track-bg.jpg",
     },
     codeSnippet: {
@@ -452,13 +565,14 @@ export const PRODUCTS = [
     brand: "Apex Velocity",
     category: "Antigravity Sneakers",
     price: 189.99,
-    originalPrice: 220.00,
+    originalPrice: 220.0,
     discount: "STYLE 03",
     rating: 4.8,
     reviewCount: 210,
     badge: "Orbital Swatch",
     badgeType: "new",
-    description: "Style 3: The Orbital Swatch. Disconnected color swatches orbiting floating sneaker at varied 3D z-indices.",
+    description:
+      "Style 3: The Orbital Swatch. Disconnected color swatches orbiting floating sneaker at varied 3D z-indices.",
     specs: ["Orbital Path Motion", "3D Z-Depth Layering", "Borderless Stage"],
     sizes: ["US 8", "US 9", "US 10", "US 11"],
     swatches: [
@@ -468,10 +582,12 @@ export const PRODUCTS = [
       { name: "Emerald Cyber", colorHex: "#10B981" },
     ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       secondary: "/images/IMG_1157.PNG",
       angle3: "/images/IMG_1210.PNG",
-      highResZoom: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      highResZoom:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       lifestyle: "/images/running-track-bg.jpg",
     },
     codeSnippet: {
@@ -486,14 +602,19 @@ export const PRODUCTS = [
     brand: "Apex Velocity",
     category: "Antigravity Sneakers",
     price: 189.99,
-    originalPrice: 220.00,
+    originalPrice: 220.0,
     discount: "STYLE 04",
     rating: 4.8,
     reviewCount: 210,
     badge: "Atmospheric Split",
     badgeType: "new",
-    description: "Style 4: The Atmospheric Split. Full-bleed editorial track background with product suspended on an Apex Blue aura cloud.",
-    specs: ["Full-Bleed Editorial BG", "Apex Blue Aura Cloud", "Atmospheric Blur"],
+    description:
+      "Style 4: The Atmospheric Split. Full-bleed editorial track background with product suspended on an Apex Blue aura cloud.",
+    specs: [
+      "Full-Bleed Editorial BG",
+      "Apex Blue Aura Cloud",
+      "Atmospheric Blur",
+    ],
     sizes: ["US 8", "US 9", "US 10", "US 11"],
     swatches: [
       { name: "Pure White", colorHex: "#FFFFFF" },
@@ -502,10 +623,12 @@ export const PRODUCTS = [
       { name: "Emerald Cyber", colorHex: "#10B981" },
     ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       secondary: "/images/IMG_1438.PNG",
       angle3: "/images/IMG_1439.PNG",
-      highResZoom: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      highResZoom:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       lifestyle: "/images/running-track-bg.jpg",
     },
     codeSnippet: {
@@ -520,14 +643,19 @@ export const PRODUCTS = [
     brand: "Apex Velocity",
     category: "Antigravity Sneakers",
     price: 189.99,
-    originalPrice: 220.00,
+    originalPrice: 220.0,
     discount: "STYLE 05",
     rating: 4.8,
     reviewCount: 210,
     badge: "Ethereal Reveal",
     badgeType: "new",
-    description: "Style 5: The Ethereal Reveal. Stark white background with zero borders. Sneaker casts the only shadow for floating look.",
-    specs: ["Pure Negative Space", "Sole-Only Drop Shadow", "High Contrast Minimalist"],
+    description:
+      "Style 5: The Ethereal Reveal. Stark white background with zero borders. Sneaker casts the only shadow for floating look.",
+    specs: [
+      "Pure Negative Space",
+      "Sole-Only Drop Shadow",
+      "High Contrast Minimalist",
+    ],
     sizes: ["US 8", "US 9", "US 10", "US 11"],
     swatches: [
       { name: "Pure White", colorHex: "#FFFFFF" },
@@ -536,10 +664,12 @@ export const PRODUCTS = [
       { name: "Emerald Cyber", colorHex: "#10B981" },
     ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       secondary: "/images/IMG_1441.PNG",
       angle3: "/images/IMG_1442.PNG",
-      highResZoom: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      highResZoom:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       lifestyle: "/images/running-track-bg.jpg",
     },
     codeSnippet: {
@@ -554,14 +684,19 @@ export const PRODUCTS = [
     brand: "Apex Velocity",
     category: "Antigravity Sneakers",
     price: 189.99,
-    originalPrice: 220.00,
+    originalPrice: 220.0,
     discount: "STYLE 06",
     rating: 4.8,
     reviewCount: 210,
     badge: "Frosted Drawer",
     badgeType: "new",
-    description: "Style 6: The Frosted Drawer. Semi-transparent frosted glass control panel floating over bottom shoe edge.",
-    specs: ["Frosted Glass Drawer", "Backdrop Blur Filter", "Action Suspension"],
+    description:
+      "Style 6: The Frosted Drawer. Semi-transparent frosted glass control panel floating over bottom shoe edge.",
+    specs: [
+      "Frosted Glass Drawer",
+      "Backdrop Blur Filter",
+      "Action Suspension",
+    ],
     sizes: ["US 8", "US 9", "US 10", "US 11"],
     swatches: [
       { name: "Pure White", colorHex: "#FFFFFF" },
@@ -570,10 +705,12 @@ export const PRODUCTS = [
       { name: "Emerald Cyber", colorHex: "#10B981" },
     ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       secondary: "/images/IMG_1447.PNG",
       angle3: "/images/IMG_1451.PNG",
-      highResZoom: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      highResZoom:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       lifestyle: "/images/running-track-bg.jpg",
     },
     codeSnippet: {
@@ -588,13 +725,14 @@ export const PRODUCTS = [
     brand: "Apex Velocity",
     category: "Antigravity Sneakers",
     price: 189.99,
-    originalPrice: 220.00,
+    originalPrice: 220.0,
     discount: "STYLE 07",
     rating: 4.8,
     reviewCount: 210,
     badge: "Gravity Pulse",
     badgeType: "new",
-    description: "Style 7: The Gravity Pulse Field. Magnetic energy resonance pulse rings levitating sneaker in zero-g environment.",
+    description:
+      "Style 7: The Gravity Pulse Field. Magnetic energy resonance pulse rings levitating sneaker in zero-g environment.",
     specs: ["Magnetic Resonance Rings", "Zero-G Field", "Cyber Cyan Aesthetic"],
     sizes: ["US 8", "US 9", "US 10", "US 11"],
     swatches: [
@@ -604,10 +742,12 @@ export const PRODUCTS = [
       { name: "Emerald Cyber", colorHex: "#10B981" },
     ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       secondary: "/images/img_20260825_231848.png",
       angle3: "/images/WhatsApp Image 2026-08-29 at 11.49.04 AM.jpeg",
-      highResZoom: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      highResZoom:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       lifestyle: "/images/running-track-bg.jpg",
     },
     codeSnippet: {
@@ -622,14 +762,19 @@ export const PRODUCTS = [
     brand: "Apex Velocity",
     category: "Antigravity Sneakers",
     price: 189.99,
-    originalPrice: 220.00,
+    originalPrice: 220.0,
     discount: "STYLE 08",
     rating: 4.8,
     reviewCount: 210,
     badge: "Holo Prism",
     badgeType: "new",
-    description: "Style 8: The Holographic Prism Chamber. Iridescent rainbow prism glass container with floating chromatic light dispersion.",
-    specs: ["Holographic Rainbow Gradient", "Prism Refraction Field", "Chromatic Dispersion"],
+    description:
+      "Style 8: The Holographic Prism Chamber. Iridescent rainbow prism glass container with floating chromatic light dispersion.",
+    specs: [
+      "Holographic Rainbow Gradient",
+      "Prism Refraction Field",
+      "Chromatic Dispersion",
+    ],
     sizes: ["US 8", "US 9", "US 10", "US 11"],
     swatches: [
       { name: "Pure White", colorHex: "#FFFFFF" },
@@ -638,10 +783,12 @@ export const PRODUCTS = [
       { name: "Emerald Cyber", colorHex: "#10B981" },
     ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       secondary: "/images/IMG_1073.PNG",
       angle3: "/images/IMG_1103.PNG",
-      highResZoom: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      highResZoom:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       lifestyle: "/images/running-track-bg.jpg",
     },
     codeSnippet: {
@@ -656,14 +803,19 @@ export const PRODUCTS = [
     brand: "Apex Velocity",
     category: "Antigravity Sneakers",
     price: 189.99,
-    originalPrice: 220.00,
+    originalPrice: 220.0,
     discount: "STYLE 09",
     rating: 4.8,
     reviewCount: 210,
     badge: "Quantum Void",
     badgeType: "new",
-    description: "Style 9: The Quantum Void Levitator. Deep void pitch-black space with glowing blue aura disk and floating action capsule.",
-    specs: ["Quantum Void Canvas", "Glowing Energy Disk", "Floating Control Capsule"],
+    description:
+      "Style 9: The Quantum Void Levitator. Deep void pitch-black space with glowing blue aura disk and floating action capsule.",
+    specs: [
+      "Quantum Void Canvas",
+      "Glowing Energy Disk",
+      "Floating Control Capsule",
+    ],
     sizes: ["US 8", "US 9", "US 10", "US 11"],
     swatches: [
       { name: "Pure White", colorHex: "#FFFFFF" },
@@ -672,42 +824,17 @@ export const PRODUCTS = [
       { name: "Emerald Cyber", colorHex: "#10B981" },
     ],
     images: {
-      primary: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      primary:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       secondary: "/images/IMG_1105.PNG",
       angle3: "/images/IMG_1438.PNG",
-      highResZoom: "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
+      highResZoom:
+        "/images/orginalimage/WhatsApp Image 2026-09-04 at 12.03.55 PM.jpeg",
       lifestyle: "/images/running-track-bg.jpg",
     },
     codeSnippet: {
       css: `/* Style 9: Quantum Void Levitation */\n.void-card { background: #030508; }`,
       framer: `<motion.div animate={{ opacity: [0.4, 0.8, 0.4] }} />`,
-    },
-  },
-  {
-    id: "prod-23",
-    variantId: "variant-w",
-    title: "Full Moon Cultured Ghee, Desi Gir Cow",
-    category: "Organic Dairy & Ghee",
-    brand: "Gawdee",
-    price: 34.99,
-    originalPrice: 42.00,
-    discount: "LIMITED STOCK",
-    rating: 4.92,
-    reviewCount: 469,
-    badge: "Limited Stock",
-    badgeType: "sale",
-    description: "Hand-crafted cultured A2 Ghee churned under full moon phases. Non-hovered textured ghee backdrop reveals floating organic seals on hover.",
-    specs: ["100% Lactose Free Certified", "Glyphosate Residue Free", "Lab Tested & GMO Free"],
-    sizes: ["500ml", "1L Pack", "250ml Jar"],
-    images: {
-      primary: "/images/ghee-500.webp",
-      secondary: "/images/IMG_1073.PNG",
-    },
-    codeSnippet: {
-      css: `/* Variant W: Organic Certification Orbit Reveal */
-.orbit-badge { border-radius: 9999px; box-shadow: 0 10px 15px rgba(0,0,0,0.1); }
-.orbit-path { stroke-dasharray: 3 3; }`,
-      framer: `<motion.div animate={{ opacity: isHovered ? 1 : 0 }} />`,
     },
   },
   {
@@ -717,14 +844,19 @@ export const PRODUCTS = [
     category: "Organic Dairy & Ghee",
     brand: "Gawdee",
     price: 34.99,
-    originalPrice: 42.00,
+    originalPrice: 42.0,
     discount: "17% OFF",
     rating: 4.9,
     reviewCount: 480,
     badge: "BESTSELLER",
     badgeType: "sale",
-    description: "Traditionally churned using the ancient Bilona method from grass-fed Desi Gir cow milk. Rich in A2 beta-casein and natural aroma.",
-    specs: ["100% Pure A2 Gir Cow Milk", "Traditional Bilona Churned", "Rich in Omega-3 & Vitamin K2"],
+    description:
+      "Traditionally churned using the ancient Bilona method from grass-fed Desi Gir cow milk. Rich in A2 beta-casein and natural aroma.",
+    specs: [
+      "100% Pure A2 Gir Cow Milk",
+      "Traditional Bilona Churned",
+      "Rich in Omega-3 & Vitamin K2",
+    ],
     images: {
       primary: "/images/ghee-500.webp",
       secondary: "/images/IMG_1073.PNG",
@@ -742,15 +874,20 @@ export const PRODUCTS = [
     title: "Gawdee Wild Forest Raw Honey",
     category: "Superfoods & Honey",
     brand: "Gawdee",
-    price: 24.50,
-    originalPrice: 30.00,
+    price: 24.5,
+    originalPrice: 30.0,
     discount: "18% OFF",
     rating: 5.0,
     reviewCount: 312,
     badge: "PURE ORGANIC",
     badgeType: "new",
-    description: "Unfiltered, unheated raw wild honey harvested sustainably from pristine forest blossoms. Packed with live enzymes and natural pollen.",
-    specs: ["100% Unprocessed Raw Honey", "Zero Added Sugar or Syrup", "Lab Tested for Purity"],
+    description:
+      "Unfiltered, unheated raw wild honey harvested sustainably from pristine forest blossoms. Packed with live enzymes and natural pollen.",
+    specs: [
+      "100% Unprocessed Raw Honey",
+      "Zero Added Sugar or Syrup",
+      "Lab Tested for Purity",
+    ],
     images: {
       primary: "/images/forest-honey.webp",
       secondary: "/images/IMG_1105.PNG",
@@ -768,14 +905,19 @@ export const PRODUCTS = [
     category: "Herbal Superfoods",
     brand: "Gawdee",
     price: 18.99,
-    originalPrice: 24.00,
+    originalPrice: 24.0,
     discount: "21% OFF",
     rating: 4.8,
     reviewCount: 265,
     badge: "NUTRIENT RICH",
     badgeType: "trending",
-    description: "Sun-shadow dried organic Moringa Oleifera leaves powdered to preserve vital antioxidants, plant protein, iron, and chlorophyll.",
-    specs: ["Single-Origin Shade Dried", "Rich in Iron & Calcium", "USDA Certified Organic"],
+    description:
+      "Sun-shadow dried organic Moringa Oleifera leaves powdered to preserve vital antioxidants, plant protein, iron, and chlorophyll.",
+    specs: [
+      "Single-Origin Shade Dried",
+      "Rich in Iron & Calcium",
+      "USDA Certified Organic",
+    ],
     images: {
       primary: "/images/moringa.webp",
       secondary: "/images/IMG_1157.PNG",
@@ -792,20 +934,41 @@ export const PRODUCTS = [
     title: "Gawdee MixMe Herbal Elixir Blend",
     category: "Wellness Beverages",
     brand: "Gawdee",
-    price: 22.00,
-    originalPrice: 28.00,
+    price: 22.0,
+    originalPrice: 28.0,
     discount: "SAVE $6",
     rating: 4.9,
     reviewCount: 198,
     badge: "FLAVOR VARIETY",
     badgeType: "custom",
-    description: "Nourishing herbal drink mix crafted with organic spices and adaptogens. Perfect for warm milk or smoothie bowls.",
-    specs: ["Adaptogenic Herbal Mix", "No Artificial Flavors", "Instant Soluble Powder"],
+    description:
+      "Nourishing herbal drink mix crafted with organic spices and adaptogens. Perfect for warm milk or smoothie bowls.",
+    specs: [
+      "Adaptogenic Herbal Mix",
+      "No Artificial Flavors",
+      "Instant Soluble Powder",
+    ],
     swatches: [
-      { name: "Organic Elaichi", colorHex: "#009B7B", img: "/images/mixme-elaichi.webp" },
-      { name: "Rich Cacao Choco", colorHex: "#4a2c11", img: "/images/mixme-choco.webp" },
-      { name: "Vedic Harvest Blend", colorHex: "#d97706", img: "/images/IMG_1210.PNG" },
-      { name: "Heritage Reserve", colorHex: "#854d0e", img: "/images/IMG_1438.PNG" }
+      {
+        name: "Organic Elaichi",
+        colorHex: "#009B7B",
+        img: "/images/mixme-elaichi.webp",
+      },
+      {
+        name: "Rich Cacao Choco",
+        colorHex: "#4a2c11",
+        img: "/images/mixme-choco.webp",
+      },
+      {
+        name: "Vedic Harvest Blend",
+        colorHex: "#d97706",
+        img: "/images/IMG_1210.PNG",
+      },
+      {
+        name: "Heritage Reserve",
+        colorHex: "#854d0e",
+        img: "/images/IMG_1438.PNG",
+      },
     ],
     images: {
       primary: "/images/mixme-elaichi.webp",
@@ -823,14 +986,19 @@ export const PRODUCTS = [
     category: "Natural Sweeteners",
     brand: "Gawdee",
     price: 12.99,
-    originalPrice: 16.00,
+    originalPrice: 16.0,
     discount: "19% OFF",
     rating: 4.8,
     reviewCount: 356,
     badge: "UNREFINED",
     badgeType: "trending",
-    description: "Traditional unrefined golden sugar retains natural molasses minerals, iron, and subtle caramel sweetness.",
-    specs: ["100% Unrefined Cane Sugar", "Rich in Natural Molasses", "Chemical Free Processing"],
+    description:
+      "Traditional unrefined golden sugar retains natural molasses minerals, iron, and subtle caramel sweetness.",
+    specs: [
+      "100% Unrefined Cane Sugar",
+      "Rich in Natural Molasses",
+      "Chemical Free Processing",
+    ],
     sizes: ["250g Jar", "500g Pouch", "1kg Pack", "2kg Value"],
     images: {
       primary: "/images/burra-sugar.webp",
@@ -848,15 +1016,20 @@ export const PRODUCTS = [
     title: "Gawdee Organic White Khandsari Sugar",
     category: "Natural Sweeteners",
     brand: "Gawdee",
-    price: 14.50,
-    originalPrice: 18.00,
+    price: 14.5,
+    originalPrice: 18.0,
     discount: "SAVE $3.50",
     rating: 4.7,
     reviewCount: 184,
     badge: "SULPHUR FREE",
     badgeType: "new",
-    description: "Pure sulphur-free khandsari sugar crystals produced via physical filtration without harsh chemical bleaching.",
-    specs: ["Non-Sulphur Processed", "Pure Sugar Cane Crystals", "Easy Dissolving"],
+    description:
+      "Pure sulphur-free khandsari sugar crystals produced via physical filtration without harsh chemical bleaching.",
+    specs: [
+      "Non-Sulphur Processed",
+      "Pure Sugar Cane Crystals",
+      "Easy Dissolving",
+    ],
     images: {
       primary: "/images/white-sugar.webp",
       secondary: "/images/IMG_1441.PNG",
@@ -874,14 +1047,19 @@ export const PRODUCTS = [
     category: "Concentrated Extracts",
     brand: "Gawdee",
     price: 29.99,
-    originalPrice: 38.00,
+    originalPrice: 38.0,
     discount: "21% OFF",
     rating: 4.9,
     reviewCount: 142,
     badge: "CONCENTRATED",
     badgeType: "custom",
-    description: "High-potency botanical liquid drop extract distilled from pure holy basil, giloy, and organic ginger root.",
-    specs: ["100% Concentrated Liquid", "Immunity Booster Drops", "Zero Alcohol Base"],
+    description:
+      "High-potency botanical liquid drop extract distilled from pure holy basil, giloy, and organic ginger root.",
+    specs: [
+      "100% Concentrated Liquid",
+      "Immunity Booster Drops",
+      "Zero Alcohol Base",
+    ],
     images: {
       primary: "/images/taral-drop.webp",
       highResZoom: "/images/IMG_1442.PNG",
@@ -899,14 +1077,19 @@ export const PRODUCTS = [
     category: "Luxury Organic Packs",
     brand: "Gawdee",
     price: 49.99,
-    originalPrice: 65.00,
+    originalPrice: 65.0,
     discount: "SAVE $15",
     rating: 5.0,
     reviewCount: 410,
     badge: "EXCLUSIVE PACK",
     badgeType: "new",
-    description: "Curated organic wellness collection featuring pure A2 Ghee, forest honey, and ancient adaptogenic mixes.",
-    specs: ["Comprehensive Nutrition Kit", "100% Certified Organic", "Gift Packaging Included"],
+    description:
+      "Curated organic wellness collection featuring pure A2 Ghee, forest honey, and ancient adaptogenic mixes.",
+    specs: [
+      "Comprehensive Nutrition Kit",
+      "100% Certified Organic",
+      "Gift Packaging Included",
+    ],
     images: {
       primary: "/images/IMG_1447.PNG",
       secondary: "/images/IMG_1451.PNG",
@@ -924,14 +1107,19 @@ export const PRODUCTS = [
     category: "Organic Dairy & Ghee",
     brand: "Gawdee",
     price: 59.99,
-    originalPrice: 75.00,
+    originalPrice: 75.0,
     discount: "20% OFF",
     rating: 5.0,
     reviewCount: 220,
     badge: "HERITAGE CROCK",
     badgeType: "new",
-    description: "100% Grass-fed A2 Gir cow ghee hand-poured into a traditional ceramic crock. Flips 3D to reveal nutritional facts.",
-    specs: ["Traditional Clay Fermented", "Zero Chemicals or Preservatives", "Lab Certified Pure"],
+    description:
+      "100% Grass-fed A2 Gir cow ghee hand-poured into a traditional ceramic crock. Flips 3D to reveal nutritional facts.",
+    specs: [
+      "Traditional Clay Fermented",
+      "Zero Chemicals or Preservatives",
+      "Lab Certified Pure",
+    ],
     images: {
       primary: "/images/IMG_1101.PNG",
       secondary: "/images/ghee-500.webp",
@@ -948,15 +1136,20 @@ export const PRODUCTS = [
     title: "Gawdee Wild Multi-Flora Blossom Honey",
     category: "Superfoods & Honey",
     brand: "Gawdee",
-    price: 27.00,
-    originalPrice: 34.00,
+    price: 27.0,
+    originalPrice: 34.0,
     discount: "SAVE $7",
     rating: 4.9,
     reviewCount: 175,
     badge: "CURTAIN REVEAL",
     badgeType: "sale",
-    description: "Split shutter curtains slide open on hover to reveal the pristine wild forest blossom harvesting origin.",
-    specs: ["Raw Unfiltered Nectar", "Sourced from Himalayan Foothills", "Rich in Antioxidants"],
+    description:
+      "Split shutter curtains slide open on hover to reveal the pristine wild forest blossom harvesting origin.",
+    specs: [
+      "Raw Unfiltered Nectar",
+      "Sourced from Himalayan Foothills",
+      "Rich in Antioxidants",
+    ],
     images: {
       primary: "/images/IMG_1103.PNG",
       secondary: "/images/forest-honey.webp",
@@ -974,14 +1167,19 @@ export const PRODUCTS = [
     category: "Luxury Organic Packs",
     brand: "Gawdee",
     price: 89.99,
-    originalPrice: 110.00,
+    originalPrice: 110.0,
     discount: "SAVE $20.01",
     rating: 5.0,
     reviewCount: 390,
     badge: "LANDSCAPE BANNER",
     badgeType: "trending",
-    description: "Full dual-column landscape banner displaying Gawdee A2 Ghee, forest honey, organic sugar, and moringa superfoods.",
-    specs: ["Complete Organic Hamper", "Gift Box Packaging", "Free Express Delivery"],
+    description:
+      "Full dual-column landscape banner displaying Gawdee A2 Ghee, forest honey, organic sugar, and moringa superfoods.",
+    specs: [
+      "Complete Organic Hamper",
+      "Gift Box Packaging",
+      "Free Express Delivery",
+    ],
     images: {
       primary: "/images/IMG_1441.PNG",
       secondary: "/images/modern-food-choices-v1.webp",
@@ -998,15 +1196,20 @@ export const PRODUCTS = [
     title: "Gawdee Organic Immunity Booster Drop Kit",
     category: "Concentrated Extracts",
     brand: "Gawdee",
-    price: 36.50,
-    originalPrice: 45.00,
+    price: 36.5,
+    originalPrice: 45.0,
     discount: "19% OFF",
     rating: 4.8,
     reviewCount: 160,
     badge: "GLASS PULSE",
     badgeType: "custom",
-    description: "Ultra-clean floating glass card with dynamic emerald ripple pulse aura rings expanding on cursor hover.",
-    specs: ["Pure Botanical Extract", "High Bioavailability", "Daily Immunity Shield"],
+    description:
+      "Ultra-clean floating glass card with dynamic emerald ripple pulse aura rings expanding on cursor hover.",
+    specs: [
+      "Pure Botanical Extract",
+      "High Bioavailability",
+      "Daily Immunity Shield",
+    ],
     images: {
       primary: "/images/IMG_1451.PNG",
       secondary: "/images/taral-drop.webp",
@@ -1023,15 +1226,20 @@ export const PRODUCTS = [
     title: "Gawdee Spatial Vision Organic Reserve",
     category: "Luxury Organic Packs",
     brand: "Gawdee",
-    price: 95.00,
-    originalPrice: 120.00,
+    price: 95.0,
+    originalPrice: 120.0,
     discount: "SAVE $25",
     rating: 5.0,
     reviewCount: 310,
     badge: "SPATIAL UI",
     badgeType: "new",
-    description: "Apple Vision inspired spatial glass UI with floating z-depth layers for badge, high-res image, and specifications.",
-    specs: ["Multi-Layered Spatial UI", "Single Origin Harvest", "Bespoke Glass Container"],
+    description:
+      "Apple Vision inspired spatial glass UI with floating z-depth layers for badge, high-res image, and specifications.",
+    specs: [
+      "Multi-Layered Spatial UI",
+      "Single Origin Harvest",
+      "Bespoke Glass Container",
+    ],
     images: {
       primary: "/images/quality-over-quantity-v1.webp",
       secondary: "/images/ghee-500.webp",
@@ -1048,15 +1256,20 @@ export const PRODUCTS = [
     title: "Gawdee Turntable 360° Organic Honey Jar",
     category: "Superfoods & Honey",
     brand: "Gawdee",
-    price: 32.00,
-    originalPrice: 40.00,
+    price: 32.0,
+    originalPrice: 40.0,
     discount: "20% OFF",
     rating: 4.9,
     reviewCount: 240,
     badge: "3D TURNTABLE",
     badgeType: "trending",
-    description: "Continuous 360° rotational turntable stage showcase spinning on mouse hover over metallic mirror base.",
-    specs: ["360° Rotational Showcase", "100% Raw Forest Nectar", "Non-GMO Verified"],
+    description:
+      "Continuous 360° rotational turntable stage showcase spinning on mouse hover over metallic mirror base.",
+    specs: [
+      "360° Rotational Showcase",
+      "100% Raw Forest Nectar",
+      "Non-GMO Verified",
+    ],
     images: {
       primary: "/images/forest-honey.webp",
       secondary: "/images/IMG_1105.PNG",
@@ -1073,15 +1286,20 @@ export const PRODUCTS = [
     title: "Gawdee Dynamic Shadow Organic Moringa",
     category: "Herbal Superfoods",
     brand: "Gawdee",
-    price: 21.50,
-    originalPrice: 27.00,
+    price: 21.5,
+    originalPrice: 27.0,
     discount: "SAVE $5.50",
     rating: 4.8,
     reviewCount: 190,
     badge: "LIGHT SHADOW",
     badgeType: "custom",
-    description: "3D drop shadow shifts dynamically relative to real-time cursor position creating realistic light source tracking.",
-    specs: ["Directional Light Tracking", "Sun Dried Moringa Leaf", "Rich in Anti-oxidants"],
+    description:
+      "3D drop shadow shifts dynamically relative to real-time cursor position creating realistic light source tracking.",
+    specs: [
+      "Directional Light Tracking",
+      "Sun Dried Moringa Leaf",
+      "Rich in Anti-oxidants",
+    ],
     images: {
       primary: "/images/moringa.webp",
       secondary: "/images/IMG_1157.PNG",
@@ -1099,14 +1317,19 @@ export const PRODUCTS = [
     category: "Natural Sweeteners",
     brand: "Gawdee",
     price: 15.99,
-    originalPrice: 20.00,
+    originalPrice: 20.0,
     discount: "20% OFF",
     rating: 4.7,
     reviewCount: 150,
     badge: "LASER SCAN",
     badgeType: "new",
-    description: "Glowing emerald laser beam line sweeps vertically across the product image, illuminating organic crystal details.",
-    specs: ["Laser Scan Illumination", "Physical Filtration", "Pure Cane Sugar"],
+    description:
+      "Glowing emerald laser beam line sweeps vertically across the product image, illuminating organic crystal details.",
+    specs: [
+      "Laser Scan Illumination",
+      "Physical Filtration",
+      "Pure Cane Sugar",
+    ],
     images: {
       primary: "/images/white-sugar.webp",
       secondary: "/images/IMG_1441.PNG",
@@ -1123,15 +1346,20 @@ export const PRODUCTS = [
     title: "Gawdee Multi-Tab MixMe Drink Pack",
     category: "Wellness Beverages",
     brand: "Gawdee",
-    price: 25.00,
-    originalPrice: 32.00,
+    price: 25.0,
+    originalPrice: 32.0,
     discount: "22% OFF",
     rating: 4.9,
     reviewCount: 280,
     badge: "INLINE TABS",
     badgeType: "trending",
-    description: "Interactive inline tabs (Overview, Specs, Origin) right inside the card frame that animate views seamlessly on click.",
-    specs: ["Inline Tab Navigation", "Adaptogenic Herb Blend", "Instant Soluble Mix"],
+    description:
+      "Interactive inline tabs (Overview, Specs, Origin) right inside the card frame that animate views seamlessly on click.",
+    specs: [
+      "Inline Tab Navigation",
+      "Adaptogenic Herb Blend",
+      "Instant Soluble Mix",
+    ],
     images: {
       primary: "/images/mixme-choco.webp",
       secondary: "/images/mixme-elaichi.webp",
@@ -1149,14 +1377,19 @@ export const PRODUCTS = [
     category: "Concentrated Extracts",
     brand: "Gawdee",
     price: 31.99,
-    originalPrice: 40.00,
+    originalPrice: 40.0,
     discount: "SAVE $8.01",
     rating: 5.0,
     reviewCount: 340,
     badge: "LIQUID RIPPLE",
     badgeType: "custom",
-    description: "Expanding liquid wave backdrop rings radiating from hover point for an organic fluid ripple feel.",
-    specs: ["Expanding Wave Aura", "Pure Botanical Concentrate", "Cold Pressed Extraction"],
+    description:
+      "Expanding liquid wave backdrop rings radiating from hover point for an organic fluid ripple feel.",
+    specs: [
+      "Expanding Wave Aura",
+      "Pure Botanical Concentrate",
+      "Cold Pressed Extraction",
+    ],
     images: {
       primary: "/images/taral-drop.webp",
       secondary: "/images/IMG_1442.PNG",
@@ -1174,14 +1407,19 @@ export const PRODUCTS = [
     category: "Organic Dairy & Ghee",
     brand: "Gawdee",
     price: 39.99,
-    originalPrice: 48.00,
+    originalPrice: 48.0,
     discount: "17% OFF",
     rating: 5.0,
     reviewCount: 520,
     badge: "AUTOPLAY VIDEO",
     badgeType: "new",
-    description: "Continuous looping 3D video stream showcasing traditional Bilona ghee churning with audio mute control.",
-    specs: ["Looping HD Video Stream", "3D Cursor Tilt Perspective", "Traditional Bilona Process"],
+    description:
+      "Continuous looping 3D video stream showcasing traditional Bilona ghee churning with audio mute control.",
+    specs: [
+      "Looping HD Video Stream",
+      "3D Cursor Tilt Perspective",
+      "Traditional Bilona Process",
+    ],
     videoUrl: "/videos/video-erasio.mp4",
     images: {
       primary: "/images/ghee-500.webp",
@@ -1198,15 +1436,20 @@ export const PRODUCTS = [
     title: "Gawdee Raw Forest Honey Motion Reveal",
     category: "Superfoods & Honey",
     brand: "Gawdee",
-    price: 28.50,
-    originalPrice: 35.00,
+    price: 28.5,
+    originalPrice: 35.0,
     discount: "18% OFF",
     rating: 4.9,
     reviewCount: 310,
     badge: "HOVER VIDEO",
     badgeType: "trending",
-    description: "Static poster image by default; seamlessly fades in and plays HD video clip on cursor hover.",
-    specs: ["Hover Triggered Video", "Raw Forest Honey Stream", "Smooth Fade Transition"],
+    description:
+      "Static poster image by default; seamlessly fades in and plays HD video clip on cursor hover.",
+    specs: [
+      "Hover Triggered Video",
+      "Raw Forest Honey Stream",
+      "Smooth Fade Transition",
+    ],
     videoUrl: "/videos/An_animated_changing_video_gen.mp4",
     images: {
       primary: "/images/forest-honey.webp",
@@ -1223,15 +1466,20 @@ export const PRODUCTS = [
     title: "Gawdee Organic Moringa Glass Video Portal",
     category: "Herbal Superfoods",
     brand: "Gawdee",
-    price: 23.00,
-    originalPrice: 30.00,
+    price: 23.0,
+    originalPrice: 30.0,
     discount: "SAVE $7",
     rating: 4.9,
     reviewCount: 290,
     badge: "VIDEO PORTAL",
     badgeType: "custom",
-    description: "Curved 3D glass viewport portal rendering looping organic leaf harvest footage with interactive audio control.",
-    specs: ["Curved 3D Glass Portal", "Harvest Motion Footage", "USDA Certified Organic"],
+    description:
+      "Curved 3D glass viewport portal rendering looping organic leaf harvest footage with interactive audio control.",
+    specs: [
+      "Curved 3D Glass Portal",
+      "Harvest Motion Footage",
+      "USDA Certified Organic",
+    ],
     videoUrl: "/videos/video-erasio_iSSRdfb7.mp4",
     images: {
       primary: "/images/moringa.webp",
@@ -1248,15 +1496,20 @@ export const PRODUCTS = [
     title: "Gawdee MixMe Herbal Elixir Parallax Stage",
     category: "Wellness Beverages",
     brand: "Gawdee",
-    price: 29.50,
-    originalPrice: 36.00,
+    price: 29.5,
+    originalPrice: 36.0,
     discount: "18% OFF",
     rating: 5.0,
     reviewCount: 430,
     badge: "PARALLAX VIDEO",
     badgeType: "new",
-    description: "Background video loop playing behind floating 3D product elements at Z-depth 40px with real-time parallax.",
-    specs: ["Spatial 3D Parallax", "Background Loop Video", "Floating Product Glass"],
+    description:
+      "Background video loop playing behind floating 3D product elements at Z-depth 40px with real-time parallax.",
+    specs: [
+      "Spatial 3D Parallax",
+      "Background Loop Video",
+      "Floating Product Glass",
+    ],
     videoUrl: "/videos/video-erasio_lnbYYtGq.mp4",
     images: {
       primary: "/images/mixme-elaichi.webp",

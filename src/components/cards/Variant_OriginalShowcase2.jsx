@@ -38,7 +38,14 @@ export default function Variant_OriginalShowcase2({
       {/* Top Banner Header: Premium Metallic Emerald Ribbon */}
       <div className="relative z-20 flex items-center justify-between gap-2 mb-3">
         <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-[#009B7B] via-[#008468] to-[#006650] text-white text-[10px] font-black tracking-wider uppercase shadow-md shadow-[#009B7B]/25">
-          <img src={BRAND.logo} alt="Gawdee Logo" className="h-3.5 w-auto object-contain brightness-200" />
+          <video
+            src={BRAND.logoVideo || BRAND.logo}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-4 w-auto object-contain pointer-events-none"
+          />
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-300 animate-pulse" />
           Original Card 2 • Botanical Elixir
         </span>

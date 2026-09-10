@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
-import { Star, Heart, ShoppingBag, Eye, Code, ShieldCheck, Leaf, Sparkles, Award } from 'lucide-react';
+import { Star, Heart, ShoppingBag, Eye, Code, ShieldCheck, Leaf, Sparkles, Award, Zap } from 'lucide-react';
 import { BRAND } from '../../data/products';
 
 export default function Variant_OriginalShowcase({
@@ -68,7 +68,14 @@ export default function Variant_OriginalShowcase({
       {/* Top Header Badge & Actions */}
       <div className="relative z-20 flex items-center justify-between gap-2 mb-3" style={{ transform: 'translateZ(15px)' }}>
         <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#eaf4ef] border border-[#009B7B]/40 text-[10px] font-black tracking-wider uppercase text-[#009B7B] shadow-xs">
-          <img src={BRAND.logo} alt="Gawdee Logo" className="h-3.5 w-auto object-contain" />
+          <video
+            src={BRAND.logoVideo || BRAND.logo}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-4 w-auto object-contain pointer-events-none"
+          />
           <span className="relative flex h-1.5 w-1.5">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#009B7B] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-[#009B7B]"></span>
@@ -112,6 +119,36 @@ export default function Variant_OriginalShowcase({
           transition={{ duration: 0.4, ease: 'easeOut' }}
           className="w-full h-full object-cover object-center rounded-xl"
         />
+
+        {/* Top-Left Discount Badge (22% OFF reference style) */}
+        <div className="absolute top-2.5 left-2.5 z-30 flex flex-col items-center justify-center rounded-b-2xl rounded-t-xl bg-[#004D40] px-2.5 py-1.5 text-white shadow-md border border-white/20">
+          <span className="text-xs font-black leading-none">{product?.discount || "22% OFF"}</span>
+        </div>
+
+        {/* Top-Right Burgundy Ribbon Tag: "LIMITED STOCK | ♡" (Two Brothers reference design) */}
+        <div className="absolute top-0 right-0 z-30 flex items-center">
+          <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-bl-2xl bg-[#9e1b42] text-white text-xs font-black shadow-md">
+            <span>LIMITED STOCK</span>
+            <span className="opacity-60">|</span>
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onToggleWishlist?.(product.id);
+              }}
+              className="hover:scale-125 transition-transform"
+              title="Add to Wishlist"
+            >
+              <Heart className={`w-3.5 h-3.5 ${isWishlisted ? 'fill-current text-white' : 'text-white'}`} />
+            </button>
+          </div>
+        </div>
+
+        {/* Bottom-Left "Selling Fast" Pill Badge (Reference Style) */}
+        <div className="absolute bottom-2.5 left-2.5 z-30 inline-flex items-center gap-1 px-2.5 py-1 rounded-xl bg-[#CBEFFE] border border-[#9EE2F8] text-xs font-black text-[#004D5A] shadow-md">
+          <Zap className="w-3.5 h-3.5 fill-[#004D5A] text-[#004D5A]" />
+          <span>Selling Fast</span>
+        </div>
 
         {/* Floating Dual-Thumbnail Selector */}
         <div className="absolute bottom-2.5 left-1/2 -translate-x-1/2 z-30 flex items-center gap-2 p-1 rounded-full bg-slate-900/70 backdrop-blur-md border border-white/30 shadow-lg">

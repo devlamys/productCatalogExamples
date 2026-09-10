@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Star, Heart, ShoppingBag, Eye, Code } from 'lucide-react';
-import { BRAND } from '../../data/products';
+import React, { useState } from "react";
+import { Star, Heart, ShoppingBag, Eye, Code, Zap } from "lucide-react";
+import { BRAND } from "../../data/products";
 
 /* Variant X: Ghee Simple Tap-First Swap
    .original-card { border: 1px solid rgba(0, 155, 123, 0.4); border-radius: 1.5rem; }
@@ -18,14 +18,15 @@ export default function VariantX_GheeTapSwap({
   // Hover also swaps image on desktop. Tap wins because click flips state directly.
   const [activeIdx, setActiveIdx] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
-  const [selectedWeight, setSelectedWeight] = useState('500g');
+  const [selectedWeight, setSelectedWeight] = useState("500g");
 
-  const firstImage = product?.images?.primary || '/images/Ghee/GheeFirst.jpeg';
-  const secondImage = product?.images?.secondary || '/images/Ghee/GheeSecond.jpeg';
+  const firstImage = product?.images?.primary || "/images/Ghee/GheeFirst.jpeg";
+  const secondImage =
+    product?.images?.secondary || "/images/Ghee/GheeSecond.jpeg";
   const images = [firstImage, secondImage];
   const showSecond = activeIdx === 1;
 
-  const weights = ['250g', '500g', '1kg'];
+  const weights = ["250g", "500g", "1kg"];
 
   const handleEnter = () => {
     setIsHovered(true);
@@ -45,14 +46,24 @@ export default function VariantX_GheeTapSwap({
   return (
     <div
       className="group relative flex h-full flex-col gap-3 rounded-3xl bg-white p-4 shadow-md transition-all duration-300 hover:shadow-xl"
-      style={{ border: '1px solid rgba(0, 155, 123, 0.4)', borderRadius: '1.5rem' }}
+      style={{
+        border: "1px solid rgba(0, 155, 123, 0.4)",
+        borderRadius: "1.5rem",
+      }}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
     >
       {/* Top row: badge + icon actions (stacked grid, no space-between flex) */}
-      <div className="grid grid-cols-[1fr_auto] items-center gap-2">
+      <div className=" grid grid-cols-[1fr_auto] items-center gap-2">
         <span className="inline-flex w-fit items-center gap-1.5 rounded-full border border-[#009B7B]/30 bg-[#009B7B]/10 px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-[#009B7B]">
-          <img src={BRAND.logo} alt="Gawdee" className="h-3.5 w-auto object-contain" />
+          <video
+            src={BRAND.logoVideo || BRAND.logo}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-4 w-auto object-contain pointer-events-none"
+          />
           Ghee Tap Swap
         </span>
         <div className="ml-auto flex items-center gap-1.5">
@@ -68,11 +79,13 @@ export default function VariantX_GheeTapSwap({
             title="Wishlist"
             className={`rounded-full border p-2 transition-colors ${
               isWishlisted
-                ? 'border-rose-200 bg-rose-50 text-rose-600'
-                : 'border-slate-200 bg-slate-50 text-slate-500 hover:text-rose-600'
+                ? "border-rose-200 bg-rose-50 text-rose-600"
+                : "border-slate-200 bg-slate-50 text-slate-500 hover:text-rose-600"
             }`}
           >
-            <Heart className={`h-3.5 w-3.5 ${isWishlisted ? 'fill-rose-500' : ''}`} />
+            <Heart
+              className={`h-3.5 w-3.5 ${isWishlisted ? "fill-rose-500" : ""}`}
+            />
           </button>
         </div>
       </div>
@@ -86,75 +99,62 @@ export default function VariantX_GheeTapSwap({
       >
         <img
           src={images[0]}
-          alt={product?.title || 'Ghee first'}
+          alt={product?.title || "Ghee first"}
           className={`absolute inset-0 h-full w-full object-cover transition-all duration-500 ease-out ${
-            showSecond ? 'scale-105 opacity-0' : 'scale-100 opacity-100'
-          } ${isHovered ? 'scale-[1.04]' : ''}`}
+            showSecond ? "scale-105 opacity-0" : "scale-100 opacity-100"
+          } ${isHovered ? "scale-[1.04]" : ""}`}
           draggable={false}
         />
         <img
           src={images[1]}
-          alt={product?.title || 'Ghee second'}
+          alt={product?.title || "Ghee second"}
           className={`absolute inset-0 h-full w-full object-cover transition-all duration-500 ease-out ${
-            showSecond ? 'scale-100 opacity-100' : 'scale-105 opacity-0'
-          } ${isHovered ? 'scale-[1.06]' : ''}`}
+            showSecond ? "scale-100 opacity-100" : "scale-105 opacity-0"
+          } ${isHovered ? "scale-[1.06]" : ""}`}
           draggable={false}
         />
 
-        {/* Simple tap hint pill (light style, intentionally different) */}
-        <span className="absolute left-2 top-2 z-10 rounded-full border border-white/60 bg-white/90 px-2.5 py-1 text-[10px] font-bold text-[#009B7B] shadow-sm backdrop-blur-sm">
-          {showSecond ? 'Image 2 / 2' : 'Tap to swap'}
-        </span>
-
-        {/* Hover quick-view veil */}
-        <span className="pointer-events-none absolute inset-0 grid place-items-center bg-black/0 transition-colors duration-300 group-hover:bg-black/10">
-          <span className="inline-flex translate-y-1 items-center gap-1.5 rounded-full bg-white px-3 py-1.5 text-xs font-extrabold text-[#009B7B] opacity-0 shadow-lg transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-            <Eye className="h-3.5 w-3.5" />
-            Quick View
+        {/* Product Status Badges (3% OFF & New Launch reference style) */}
+        <div className="absolute top-2.5 left-2.5 z-10 flex flex-col items-center justify-center rounded-b-2xl rounded-t-xl bg-[#004D40] px-2.5 py-1.5 text-white shadow-md border border-white/20">
+          <span className="text-xs font-black leading-none">3%</span>
+          <span className="text-[9px] font-black uppercase tracking-wider text-emerald-200 mt-0.5 leading-none">
+            OFF
           </span>
-        </span>
-      </button>
+        </div>
 
-      {/* Tap dots — mobile-first control */}
-      <div className="flex items-center gap-1.5 pl-0.5">
-        {images.map((src, idx) => (
-          <button
-            key={idx}
-            type="button"
-            aria-label={`Show image ${idx + 1}`}
-            onClick={(e) => {
-              e.stopPropagation();
-              setActiveIdx(idx);
-            }}
-            className={`h-2 rounded-full transition-all duration-300 ${
-              activeIdx === idx ? 'w-6 bg-[#009B7B]' : 'w-2 bg-slate-300 hover:bg-slate-400'
-            }`}
-          />
-        ))}
-        <span className="ml-1 text-[10px] font-semibold text-slate-400">
-          Tap first • Hover swaps too
-        </span>
-      </div>
+        <div className="absolute top-2.5 right-2.5 z-10 rounded-xl bg-[#D97706] px-3 py-1 text-[11px] font-extrabold text-white shadow-md border border-white/20">
+          New Launch
+        </div>
+
+        {/* Bottom-Left "Selling Fast" Pill Badge (Reference Style) */}
+        <div className="absolute bottom-2.5 left-2.5 z-10 inline-flex items-center gap-1 px-2.5 py-1 rounded-xl bg-[#CBEFFE] border border-[#9EE2F8] text-xs font-black text-[#004D5A] shadow-md">
+          <Zap className="w-3.5 h-3.5 fill-[#004D5A] text-[#004D5A]" />
+          <span>Selling Fast</span>
+        </div>
+      </button>
 
       {/* Title block */}
       <div className="space-y-1">
         <p className="text-[11px] font-extrabold uppercase tracking-widest text-[#009B7B]">
-          {product?.brand || 'Gawdee Organic Nutrition'}
+          {product?.brand || "Gawdee Organic Nutrition"}
         </p>
         <h3
           onClick={() => onQuickView?.(product)}
           className="cursor-pointer text-base font-extrabold leading-snug text-slate-900 transition-colors line-clamp-1 hover:text-[#009B7B]"
         >
-          {product?.title || 'Gawdee Pure A2 Desi Ghee'}
+          {product?.title || "Gawdee Pure A2 Desi Ghee"}
         </h3>
         <p className="text-xs text-slate-500 line-clamp-2">
-          {product?.description || 'Simple farm-fresh Ghee card. Tap the photo to swap views.'}
+          {product?.description ||
+            "Simple farm-fresh Ghee card. Tap the photo to swap views."}
         </p>
       </div>
 
       {/* Weight selector — stacked simple layout */}
       <div className="mt-1 space-y-1.5 border-t border-slate-100 pt-3">
-        <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Weight:</p>
+        <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400">
+          Weight:
+        </p>
         <div className="grid grid-cols-3 gap-1.5">
           {weights.map((w) => (
             <button
@@ -163,8 +163,8 @@ export default function VariantX_GheeTapSwap({
               onClick={() => setSelectedWeight(w)}
               className={`rounded-lg px-2 py-1.5 text-[11px] font-extrabold transition-all active:scale-95 ${
                 selectedWeight === w
-                  ? 'bg-[#009B7B] text-white shadow-sm'
-                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                  ? "bg-[#009B7B] text-white shadow-sm"
+                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
               }`}
             >
               {w}
@@ -185,11 +185,17 @@ export default function VariantX_GheeTapSwap({
           </div>
           <div className="flex items-baseline gap-1.5">
             <span className="text-xl font-black text-slate-900">
-              ${typeof product?.price === 'number' ? product.price.toFixed(2) : product?.price || '34.99'}
+              $
+              {typeof product?.price === "number"
+                ? product.price.toFixed(2)
+                : product?.price || "34.99"}
             </span>
             {product?.originalPrice && (
               <span className="text-xs font-semibold text-slate-400 line-through">
-                ${typeof product.originalPrice === 'number' ? product.originalPrice.toFixed(2) : product.originalPrice}
+                $
+                {typeof product.originalPrice === "number"
+                  ? product.originalPrice.toFixed(2)
+                  : product.originalPrice}
               </span>
             )}
           </div>
